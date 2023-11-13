@@ -1,0 +1,127 @@
+body{
+    font-family: 'Mukta', sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    
+}
+
+.caixa-video{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.video{
+   position: fixed;
+   top: 0;
+   min-height: 100%;
+   min-width: 100%;
+}
+
+.mascara-video{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+.caixa1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.logo{
+    width: 300px;
+
+}
+
+.descricao{
+   color: white; 
+   margin-top: 10px;
+   margin-bottom: 40px;
+   line-height: 30px;
+   font-size: 24px;
+} 
+
+.caixa2{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-grande{
+    height: 600px;
+}
+
+.botao{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    width: 300px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario{
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 30px;
+    gap: 15px;
+    position: fixed;
+    top: 150px;
+    left: -370px;
+    transition: left 1s linear;
+    z-index: 4;
+}
+
+input{
+    border-radius: 6px;
+    padding: 10px;
+    border: gray;
+    outline-color: chartreuse;
+}
+
+.caixa-de-texto{
+    border-radius: 6px;
+    padding: 10px; 
+    border: gray; 
+    outline-color: chartreuse;
+}
+
+.botao-orcamento{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.mascara-form{
+    visibility: hidden;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}

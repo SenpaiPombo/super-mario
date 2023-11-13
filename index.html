@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&display=swap" rel="stylesheet">
+    <title>Super Msrio</title>
+</head>
+
+<body>
+
+    <main>
+        <section class="caixa-video">
+            <video class="video" src="./src/video/video.mp4" autoplay muted loop></video>
+            <div class="mascara-video"></div>
+        </section>
+
+        <section class="caixa1">
+            <img class="logo" src="./src/img/logo.png" alt="logo super mario bros">
+
+            <p class="descricao">
+                Encanadores Mario & Luigi - Resolvendo Seus Plobremas Com Estilo! <br>
+                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos
+                inesperados, canos entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui
+                para salvar o dia! Apresentamos a vocês os encanadores mais famosos
+                do Reino dos Cogumelos - Mario e Luigi!
+            </p>
+            <button onclick="cliquei()" class="botao">ENTRE EM CONTATO</button>
+        </section>
+
+        <section class="caixa2">
+            <img class="img-grande" src="./src/img/mario.png" alt=" Mario e Luigi">
+        </section>
+    </main>
+
+    <form action="https://formsubmit.co/welessons7@gmail.com" method="POST" class="formulario">
+        <h2 class="form-titulo">Fale Conosco</h2>
+
+        <label for="nome"></label>
+        <input class="nome-usuario" type="text" name="nome" required placeholder="Seu Nome">
+
+        <label for="telefone"></label>
+        <input class="telefone-usuario" type="tel" name="telefone" required placeholder="Telefone">
+
+        <label for="mensagem"></label>
+        <textarea class="caixa-de-texto" name="mensagem" rows="5" placeholder="Digite seu problema"></textarea>
+
+        <button onclick="sumirFormulario()" class="botao-orcamento">Pedir Orçamento</button>
+    </form>
+
+    <div class="mascara-form"></div>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
